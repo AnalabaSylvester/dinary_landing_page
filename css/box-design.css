@@ -1,0 +1,41 @@
+.box-design-container{
+    width: 180%;
+    height: 600px;;
+    background: rgb(226, 227, 228);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.header-line{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: white;
+    padding: 8px;
+}
+
+
+.dot-1{
+    background: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.dot-2{
+    background: green;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.dot-3{
+    background: yellow;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin: 5px;
+}
