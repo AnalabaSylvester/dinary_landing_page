@@ -816,7 +816,7 @@ nav .fa{
 /* media-query */
 
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 768px) {
     .header-items {
         display: flex;
         flex-direction: column;
