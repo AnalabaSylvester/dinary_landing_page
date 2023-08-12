@@ -6,8 +6,8 @@
 html,
 body {
     font-family: sans-serif;
-    overflow: hidden;
     overflow-y: auto;
+    overflow-x: hidden;
 
 }
 
@@ -813,15 +813,14 @@ nav .fa{
 
 
 
+
 /* media-query */
 
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .header-items {
         display: flex;
         flex-direction: column;
-        overflow: hidden;
-
     }
 
     .header-items h1 {
@@ -852,11 +851,6 @@ nav .fa{
 
     .box-design-container {
         display: none;
-    }
-
-    body{
-        overflow: hidden;
-        overflow-y: auto;
     }
 
     .cards {
@@ -1030,6 +1024,7 @@ nav .fa{
         transition: 1s;
         border-top-left-radius: 100px;
         border-bottom-right-radius: 100px;
+        overflow: hidden;
     }
     nav .fa{
         display: block;
