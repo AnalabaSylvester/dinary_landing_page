@@ -140,10 +140,9 @@ nav {
 }
 
 h1 #sp {
+    border-bottom: 4px solid;
     color: rgb(107, 65, 245);
 
-    text-decoration: underline 4px;
-    border-bottom: 10px red;
     /* border-left: none;
     border-right: none;
     border-top:none; */
